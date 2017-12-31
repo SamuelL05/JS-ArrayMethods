@@ -216,7 +216,7 @@ window.onload = function() {
     }));
 
     // 15 will be printed to console
-    console.log(array.reduceRight(function(accumulator, nextValue) {
+    console.log(array.reduce(function(accumulator, nextValue) {
         return accumulator + nextValue;
     }));
 }
